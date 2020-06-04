@@ -1,0 +1,26 @@
+
+本地文件git仓库管理：
+
+md test_git
+
+cd test_git
+
+git init 
+
+type a.txt
+
+echo 123456>a.txt
+
+git status
+
+git add .
+
+git status
+
+git commit -m "first commit"
+
+git remote add origin git@github.com:zhaochunrong/test.git
+
+git push origin master --force
+
+(测试成功）
